@@ -41,7 +41,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAy-Qv-EXy"/>
-                                    <segue destination="92M-1c-qF4" kind="show" id="Amz-FO-ulM"/>
+                                    <segue destination="92M-1c-qF4" kind="show" identifier="" id="Amz-FO-ulM"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EJW-rc-irZ">
@@ -121,6 +121,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="logoutButtonTapped" destination="92M-1c-qF4" eventType="touchUpInside" id="2KM-zG-yp8"/>
+                                    <segue destination="jp8-b0-iaS" kind="unwind" unwindAction="unwindFor:" id="t8m-qP-4yx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -141,6 +142,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xiY-Al-T3R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="jp8-b0-iaS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1628.2442748091603" y="-35.91549295774648"/>
         </scene>

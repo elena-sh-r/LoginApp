@@ -27,7 +27,17 @@ final class LoginViewController: UIViewController {
         guard let welcomeVC = segue.destination as? WelcomeViewController else {
             return
         }
+        
         welcomeVC.userName = "Hello, \(login)!"
+    }
+    
+    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        guard segue.source is WelcomeViewController else {
+            return
+        }
+        
+        userNameTF.text = ""
+        passwordTF.text = ""
     }
     
     @IBAction func loginButtonTapped() {

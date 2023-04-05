@@ -144,7 +144,7 @@
                             <constraint firstItem="a3b-MD-kQ8" firstAttribute="top" secondItem="Yqc-dE-l2Y" secondAttribute="bottom" constant="70" id="y0G-LI-eLT"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="person.fill" catalog="system" id="O8f-VN-x83"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="O8f-VN-x83"/>
                     <navigationItem key="navigationItem" id="b6V-9Z-CoE"/>
                     <connections>
                         <outlet property="introducingLabel" destination="ReY-0t-DSn" id="Rxu-pC-GCB"/>
@@ -357,6 +357,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
